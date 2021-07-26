@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.Maps.MapsFragment">
+
+
+   <ScrollView
+       android:id="@+id/scrollView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:layout_constraintBottom_toTopOf="@+id/adView"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:paddingStart="20dp"
+          android:paddingLeft="20dp"
+          android:paddingTop="70dp"
+          android:paddingEnd="20dp"
+          android:paddingRight="20dp"
+          android:paddingBottom="20dp">
+
+         <LinearLayout
+             android:id="@+id/erangle"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="30dp"
+             android:background="@drawable/shape"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/erangle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingTop="7dp"
+                android:text="ERANGLE:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                android:text="Erangel is the first 8x8 km playable map created for PUBG."
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/miramar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="30dp"
+             android:background="@drawable/shape"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/miramar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingTop="7dp"
+                android:text="MIRAMAR:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                android:text="Miramar is a 8x8km city-centric map with an open desrt plain and rural areas,"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/sanhok"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="30dp"
+             android:background="@drawable/shape"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sanhok" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingTop="7dp"
+                android:text="SANHOK:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                android:text="Sanhok is a 4x4km small and most thrilling for PUBG players"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/livik"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/shape"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/livik" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingTop="7dp"
+                android:text="LIVIK:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                android:text="Livik is the 4th playable map it is a 2x2km area with snowy terrain and waterfalls"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+         </LinearLayout>
+      </LinearLayout>
+   </ScrollView>
+
+
+   <com.google.android.gms.ads.AdView
+       android:id="@+id/adView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="60dp"
+       app:adSize="BANNER"
+       app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/scrollView2"></com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>

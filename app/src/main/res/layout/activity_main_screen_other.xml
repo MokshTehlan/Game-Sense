@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.Weapons.Other.MainScreenOther">
+    <LinearLayout
+        android:id="@+id/toolbar_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        app:tabTextColor="@color/white"
+        app:tabSelectedTextColor="@color/primary"
+        app:tabGravity="fill"
+        app:tabIndicatorGravity="bottom"
+        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorColor="@color/primary">
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/CROSSBOW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crossbow"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/DP28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DP-28"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/M249"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M249"/>
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/other_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

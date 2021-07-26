@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#2B2B2B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#191919</color>
+    <color name="primary">#eab729</color>
+    <color name="info">#9F9F9F</color>
+    <color name="guns_background">#121212</color>
+</resources>

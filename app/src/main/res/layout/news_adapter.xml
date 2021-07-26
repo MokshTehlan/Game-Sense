@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="#191919">
+
+    <LinearLayout
+        android:id="@+id/news_card"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/news_image"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="start"/>
+
+        <TextView
+                android:id="@+id/headline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:text="hello world how are you guys doing this is going fun over here lol g ggggggggggggggggggggggggggggggggggggggggggggggggggg"
+                android:textSize="17dp"
+                android:lineSpacingExtra="4dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.6"
+                android:text="Read more..."
+                android:paddingEnd="12dp"
+                android:gravity="right"
+                android:textColor="#AFAFAF"/>
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

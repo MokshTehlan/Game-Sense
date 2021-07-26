@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.Weapons.SMG.MainScreenSmg">
+    <LinearLayout
+        android:id="@+id/toolbar_smg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_smg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        app:tabTextColor="@color/white"
+        app:tabSelectedTextColor="@color/primary"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabIndicatorGravity="bottom"
+        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorColor="@color/primary">
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/MP5K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MP5K"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/PP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PP-19 Bizon"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/TOMMY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOMMY"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/UMP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UMP"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/UZI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UZI"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/VECTOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VECTOR"/>
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/smg_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

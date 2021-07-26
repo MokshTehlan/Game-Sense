@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "964024349849",
+    "firebase_url": "https://game-sense-a9360-default-rtdb.firebaseio.com",
+    "project_id": "game-sense-a9360",
+    "storage_bucket": "game-sense-a9360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964024349849:android:af88c9c0784c6c28d0b408",
+        "android_client_info": {
+          "package_name": "com.moksh.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964024349849-9v0dqfii2v72rinq1ckh667ui4cbltgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEt-41LQZJUW9zFoyyacvk6smZw3QIskM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964024349849-9v0dqfii2v72rinq1ckh667ui4cbltgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964024349849:android:f2375ce4328791f9d0b408",
+        "android_client_info": {
+          "package_name": "com.moksh.gamesense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964024349849-9v0dqfii2v72rinq1ckh667ui4cbltgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEt-41LQZJUW9zFoyyacvk6smZw3QIskM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964024349849-9v0dqfii2v72rinq1ckh667ui4cbltgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

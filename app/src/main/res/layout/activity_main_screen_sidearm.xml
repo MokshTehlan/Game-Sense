@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.Weapons.SideArm.MainScreenSidearm">
+    <LinearLayout
+        android:id="@+id/toolbar_sidearm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_sidearm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        app:tabTextColor="@color/white"
+        app:tabSelectedTextColor="@color/primary"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabIndicatorGravity="bottom"
+        app:tabIndicatorHeight="3dp"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorColor="@color/primary">
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/P18C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P18C"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/SKORPION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKORPION"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/SAWED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAWED-OFF"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/R45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R45"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/R1895"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R1895"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/P92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P92"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/P1911"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P1911"/>
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/sidearm_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

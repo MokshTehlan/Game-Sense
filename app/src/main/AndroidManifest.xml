@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moksh.gamesense">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Copy.NoActionBar">
+        <activity android:name=".NoInternet"
+            android:theme="@style/Theme.Copy.NoActionBar"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Weapons.SideArm.MainScreenSidearm"
+            android:parentActivityName=".ui.Weapons.SideArm.MainScreenSidearm"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Weapons.ShotGuns.MainScreenShotgun"
+            android:parentActivityName=".ui.Weapons.ShotGuns.MainScreenShotgun"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Weapons.Other.MainScreenOther"
+            android:parentActivityName=".ui.Weapons.Other.MainScreenOther"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Weapons.DMR.MainScreenDmr"
+            android:parentActivityName=".ui.Weapons.DMR.MainScreenDmr"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Weapons.SMG.MainScreenSmg"
+            android:parentActivityName=".ui.Weapons.SMG.MainScreenSmg"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Weapons.SniperRifels.MainScreenSr"
+            android:parentActivityName=".ui.Weapons.SniperRifels.MainScreenSr"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Weapons.AR.MainScreenAr"
+            android:parentActivityName=".ui.Weapons.AR.MainScreenAr"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Maps.MiramarMap"
+            android:parentActivityName=".ui.Maps.MiramarMap"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".ui.Maps.ErangleMap"
+            android:parentActivityName=".ui.Maps.ErangleMap"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Copy.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D5D5"
+    tools:context=".NoInternet">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/nointernet"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Whoops!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="280dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="No Internet connection found. Check your connection or try again later."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:progressTint="#3F51B5"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
